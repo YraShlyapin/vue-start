@@ -1,0 +1,25 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode=development --watch",
+    "build": "webpack --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.3.11",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.4",
+    "vue-loader": "^17.3.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@vue/compat": "^3.3.11",
+    "vue": "^3.3.11",
+    "vue-router": "^4.2.5"
+  }
+}
